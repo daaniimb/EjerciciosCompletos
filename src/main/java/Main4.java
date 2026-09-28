@@ -1,0 +1,16 @@
+void main() {
+    String usuario , contraseña;
+    Scanner entrada = new Scanner(System.in);
+
+    System.out.println("Escribe el usuario: ");
+    usuario = entrada.next();
+    System.out.println("Escribe la contraseña: ");
+    contraseña = entrada.next();
+
+    if (usuario.equals("admin") && contraseña.equals("1234")) {
+        System.out.println("Acceso concedido");
+    }
+    else {
+        System.out.println("Acceso denegado, usuario o contraseña incorrectos");
+    }
+}
