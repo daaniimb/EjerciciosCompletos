@@ -3,7 +3,6 @@ void main() {
     Scanner entrada = new Scanner(System.in);
 
     for (int i = 0; i < 3; i++) {
-        System.out.println("Acceso denegado, usuario o contraseña incorrectos");
         System.out.println("Escribe el usuario: ");
         usuario = entrada.next();
         System.out.println("Escribe la contraseña: ");
